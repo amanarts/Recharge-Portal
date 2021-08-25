@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.updateprofile{
+    background-color: #1C2237;
+    color: white;
+    grid-column: 5/11;
+    grid-row:3/7;
+    padding: 2% 5% 2% 5% ;
+    
+}
+
+.form-label{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color:white;
+}
+
+.column2{
+    float: right  !important;
+}
+
+.buttonrow{
+    padding-top: 2%;
+    padding-left: 10%;
+    visibility: hidden;
+}
+.imgavatar{
+    border-radius: 50%;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+.imagegrid{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+}
+.userName{
+    grid-column: 2/4;
+    grid-row:1;
+    font-size: 50px;
+}
+.updateBtn{
+    grid-column: 2/4;
+    grid-row:2;
+    font-size: 20px;
+}
+#emailfield{
+    background-color: #fff;
+    
+}

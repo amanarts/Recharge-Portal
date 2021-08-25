@@ -1,0 +1,91 @@
+
+   .red {
+       color: red;
+   }
+   .mb-3{
+       color:white;
+   }
+   .mb-4{
+       color: black;
+   }
+   #logoBlock{
+       float:left;
+       align-items: center;
+       text-align: center;
+       width:50%;
+       background: #1c2237;
+       padding-bottom: 3.5%;
+   }
+   
+   #registrationBlock{
+      
+       float:right;
+       padding: 1%;
+       width:50%;
+       background-color: #1c2237;
+   }
+
+   .logo{
+       margin-top: 30%;
+       height:200px;
+       border-radius: 50%;
+       background-color: aqua;
+       border: 2px solid black;
+   }
+   
+   .button{
+       border: none;
+       height:40px;
+       width: 100px;
+       font-size: larger;
+       border-radius: 5px;
+       background-color: #4481EB;
+       color: white;
+   }
+   
+   .registerimg{
+    max-width: 75%;
+    margin-top: 10%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10%;
+    padding-right: 0;
+   }
+
+   .pagename{
+       margin-top: 30%;
+       float:left
+   }
+   
+   .center{
+       text-align: center;
+   }
+   
+ 
+   .heading1{
+       font-weight: bold;
+       font-size:45px;
+       text-align: center;
+       margin-bottom: 30px;
+   }
+
+   @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+   #logoBlock {
+      width: 100%;
+    }
+    #registrationBlock{
+        width: 100%;
+    }
+    .button{
+        height:30px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    select {
+        width: 100%; max-width: 100%;
+     }
+  }
+   
+   

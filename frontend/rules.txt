@@ -1,0 +1,7 @@
+1. Component's files should be named in camelCase.
+2. Component's name should be PascalCase.
+3. DotENV file's variables should be like ABC_DEF_JKL.
+4. Redundant APIs should be avoided.
+5. axios should be usedfor API calls.
+6. Snapshot testing should be done.
+7. Every component should use individual CSS file.

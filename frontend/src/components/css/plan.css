@@ -1,0 +1,22 @@
+.admin-dashboard{
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.button-blue{
+    background-color:#4481EB;
+}
+.button-add-plan{
+    border-radius: 10px;
+    font-size: 92%;
+    margin-top: 15px;
+    margin-right: 25%;
+}
+
+.plan-card{
+    width: 90%;
+    margin-left: 5%;
+    border-left: white;
+    border-right: white;
+    border-radius: 0px;
+}

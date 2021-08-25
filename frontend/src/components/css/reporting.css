@@ -1,0 +1,70 @@
+#navtab {
+    margin-top: 2.5%;
+}
+#listConsumption {
+    margin-top: 1%;
+}
+.nav-pills .nav-link {
+    border-radius: 100px;
+    background-color: #1c2237;
+    color:white;
+} 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+#labels {
+    font-size: 1.2rem;
+}
+#filterDiv {
+    border-color: black;
+    border-width: 5px;
+    border-radius: 2%;
+}
+#consumer-report-page {
+    background-color: #1c2237;
+}
+body {
+    color: white;
+}
+#outer-container {
+    background-color: #1c2237;
+    display: block;
+    height: 100vh;
+    overflow: scroll;
+}
+#datetimepicker1,#datetimepicker2,#downloadButton {
+    display: inline-block;
+}
+#downloadButton {
+    margin-right: 1rem;
+}
+#datetimepicker1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#datetimepicker2 {
+    margin-left: 1rem;
+}
+#downloadButton,#labelDownload {
+    position: relative;
+    float: right;
+}
+#labelTo {
+    margin-left: 12rem;
+}
+#labelDiv {
+    margin: 1rem;
+}
+#upper-div {
+    display: inline-block;
+    margin-right: 27rem;
+}
+#upper-div-right {
+    float: right;
+}
+#lower-div {
+    display: inline-block;
+    margin-right: 20rem;
+}
